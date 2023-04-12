@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Autofac;
+using FriendOrganizer.DataAccess;
 using FriendOrganizer.UI.Data;
 using FriendOrganizer.UI.ViewModel;
 
@@ -25,6 +26,8 @@ namespace FriendOrganizer.UI.Startup
 
             // When an IFriendDataService is needed, you have to create a FriendDataService class
             builder.RegisterType<FriendDataService>().As<IFriendDataService>();
+
+            builder.RegisterType<FriendOrganizerDbContext>().AsSelf();
 
             return builder.Build();
 

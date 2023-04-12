@@ -25,3 +25,9 @@ C:\1_Programming\1_C#\1_ExampleResources\8_EmptyMVVMProject\FriendOrganizer.Data
 C:\1_Programming\1_C#\1_ExampleResources\8_EmptyMVVMProject\FriendOrganizer.DataAccess\bin\Debug\System.Numerics.Vectors.xml
 C:\1_Programming\1_C#\1_ExampleResources\8_EmptyMVVMProject\FriendOrganizer.DataAccess\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\1_Programming\1_C#\1_ExampleResources\8_EmptyMVVMProject\FriendOrganizer.DataAccess\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\1_Programming\1_C#\1_ExampleResources\8_EmptyMVVMProject\FriendOrganizer.DataAccess\bin\Debug\EntityFramework.dll
+C:\1_Programming\1_C#\1_ExampleResources\8_EmptyMVVMProject\FriendOrganizer.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\1_Programming\1_C#\1_ExampleResources\8_EmptyMVVMProject\FriendOrganizer.DataAccess\bin\Debug\EntityFramework.xml
+C:\1_Programming\1_C#\1_ExampleResources\8_EmptyMVVMProject\FriendOrganizer.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\1_Programming\1_C#\1_ExampleResources\8_EmptyMVVMProject\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.Migrations.NewDataBase.resources
+C:\1_Programming\1_C#\1_ExampleResources\8_EmptyMVVMProject\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.csproj.GenerateResource.cache

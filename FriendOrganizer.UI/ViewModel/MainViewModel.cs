@@ -8,29 +8,40 @@ namespace FriendOrganizer.UI.ViewModel
 {
     public partial class MainViewModel : ViewModelBase
     {
-        private  IFriendDataService _friendDataService;
-        private Friend _selectedFriend;
+       // private  IFriendDataService _friendDataService;
+        //private Friend _selectedFriend;
 
-        public MainViewModel(IFriendDataService friendDataService)
+        public MainViewModel(INavigationViewModel navigationViewMoeModel,
+            IFriendDetailViewModel friendDetailViewModel)    //IFriendDataService friendDataService)
         {
-            Friends = new ObservableCollection<Friend>();
-            _friendDataService = friendDataService;
+            NavigationViewModel = navigationViewMoeModel;
+            FriendDetailViewModel = friendDetailViewModel;
+            //Friends = new ObservableCollection<Friend>();
+            //_friendDataService = friendDataService;
         }
 
         public async Task LoadAsync()
         {
+
+            await NavigationViewModel.LoadAsync();
+
+            /* Decoupling of UI
             var friends = await _friendDataService.GetAllAsync();
             Friends.Clear();
             foreach (var friend in friends)
             {
                 Friends.Add(friend);
             }
+            */
         }
 
-        public ObservableCollection<Friend> Friends { get; set; }
-  
+
+        public INavigationViewModel NavigationViewModel { get; }
+        public IFriendDetailViewModel FriendDetailViewModel { get; }
+        // public ObservableCollection<Friend> Friends { get; set; }
 
 
+        /* Decoupling of UI 
         public Friend SelectedFriend
         {
             get { return _selectedFriend;  }
@@ -42,5 +53,7 @@ namespace FriendOrganizer.UI.ViewModel
                 // // From C# 6.0 no need to provide real name.Nameof also works "SelectedFriend");
             }
         }
+
+        */
     }
 }

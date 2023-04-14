@@ -23,10 +23,12 @@ namespace FriendOrganizer.UI.Startup
             // So when main is needed. Just return main
             builder.RegisterType<MainWindow>().AsSelf();
             builder.RegisterType<MainViewModel>().AsSelf();
-
+            builder.RegisterType<NavigationViewModel>().As<INavigationViewModel>();
+            builder.RegisterType<FriendDetailViewModel>().As<IFriendDetailViewModel>();
             // When an IFriendDataService is needed, you have to create a FriendDataService class
             builder.RegisterType<FriendDataService>().As<IFriendDataService>();
-
+            // As implemented interfaces will search for all lookupDataServices 
+            builder.RegisterType<LookupDataService>().AsImplementedInterfaces();
             builder.RegisterType<FriendOrganizerDbContext>().AsSelf();
 
             return builder.Build();

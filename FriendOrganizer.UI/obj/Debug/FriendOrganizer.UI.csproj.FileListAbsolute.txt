@@ -40,3 +40,8 @@ C:\1_Programming\1_C#\1_ExampleResources\8_EmptyMVVMProject\FriendOrganizer.UI\b
 C:\1_Programming\1_C#\1_ExampleResources\8_EmptyMVVMProject\FriendOrganizer.UI\bin\Debug\EntityFramework.xml
 C:\1_Programming\1_C#\1_ExampleResources\8_EmptyMVVMProject\FriendOrganizer.UI\bin\Debug\EntityFramework.SqlServer.dll
 C:\1_Programming\1_C#\1_ExampleResources\8_EmptyMVVMProject\FriendOrganizer.UI\bin\Debug\EntityFramework.SqlServer.xml
+C:\1_Programming\1_C#\1_ExampleResources\8_EmptyMVVMProject\FriendOrganizer.UI\obj\Debug\View\NavigationView.g.cs
+C:\1_Programming\1_C#\1_ExampleResources\8_EmptyMVVMProject\FriendOrganizer.UI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\1_Programming\1_C#\1_ExampleResources\8_EmptyMVVMProject\FriendOrganizer.UI\obj\Debug\View\NavigationView.baml
+C:\1_Programming\1_C#\1_ExampleResources\8_EmptyMVVMProject\FriendOrganizer.UI\obj\Debug\View\FriendDetailView.g.cs
+C:\1_Programming\1_C#\1_ExampleResources\8_EmptyMVVMProject\FriendOrganizer.UI\obj\Debug\View\FriendDetailView.baml

@@ -45,3 +45,6 @@ C:\1_Programming\1_C#\1_ExampleResources\8_EmptyMVVMProject\FriendOrganizer.UI\o
 C:\1_Programming\1_C#\1_ExampleResources\8_EmptyMVVMProject\FriendOrganizer.UI\obj\Debug\View\NavigationView.baml
 C:\1_Programming\1_C#\1_ExampleResources\8_EmptyMVVMProject\FriendOrganizer.UI\obj\Debug\View\FriendDetailView.g.cs
 C:\1_Programming\1_C#\1_ExampleResources\8_EmptyMVVMProject\FriendOrganizer.UI\obj\Debug\View\FriendDetailView.baml
+C:\1_Programming\1_C#\1_ExampleResources\8_EmptyMVVMProject\FriendOrganizer.UI\bin\Debug\Prism.dll
+C:\1_Programming\1_C#\1_ExampleResources\8_EmptyMVVMProject\FriendOrganizer.UI\bin\Debug\Prism.pdb
+C:\1_Programming\1_C#\1_ExampleResources\8_EmptyMVVMProject\FriendOrganizer.UI\bin\Debug\Prism.xml
